@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bitrot-decay"
+version = "0.0.2"
+authors = [
+  { name="Tirthik Durgam", email="your.email@example.com" },
+]
+description = "A lightweight library for simulating digital image decay."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "Pillow",
+    "numpy"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/bitrot"
